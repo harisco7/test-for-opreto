@@ -58,6 +58,7 @@ export default function Page() {
             <Col span={4}>
               {selectedIndex > 0 && (
                 <Button
+                  data-testid="prev"
                   type="primary"
                   onClick={() => setSelected(data[selectedIndex - 1].Year)}
                 >
@@ -76,6 +77,7 @@ export default function Page() {
             <Col span={4}>
               {selectedIndex >= 0 && (
                 <Button
+                  data-testid="next"
                   type="primary"
                   onClick={() =>
                     setSelected(data[(selectedIndex + 1) % data.length].Year)
