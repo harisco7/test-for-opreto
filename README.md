@@ -1,8 +1,10 @@
-Getting started:
-For installing Project: run npm install.
+#Getting started
+npm run install.
+
+#Description
 
 This will display year with table component.
 
-if you click next button, it will move to next year and display table regarding to this year.
+- Click the next button to move to the next year and display the table for this year
 
-if you click prev button, it will move to previous year and display table regarding to the previous year.
+- Click the previous button to move to the previous year and display the table for the previous year
